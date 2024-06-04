@@ -1,0 +1,115 @@
+.body{
+    font-family: 'helvetica';
+    max-width: 1200px;
+    margin:auto;
+
+}
+.testata {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'helvetica';
+    overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.testata ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%; 
+}
+
+.testata li {
+    margin: 0;
+    flex-grow: 1; 
+}
+
+.testata a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block; 
+    text-align: center; 
+}
+
+.immaginehome{
+    margin-top: 76px;
+    margin-left: 400px ;
+    transform: scale(1.5)
+}
+
+.testoT{
+     margin-top: 76px;
+     overflow: 100px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     
+
+}  
+
+img{
+   
+    height: 300px;
+}
+
+.specifiche1 {
+    text-align: center;
+  
+}
+
+.specifiche2 {
+    margin-left: 90px;
+      padding: 5px;
+    max-width: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 150px;
+    display: flex;
+
+}
+
+.specifiche3 {
+    margin-left: 100px;
+    padding: 20px;
+  max-width: 900px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  gap: 230px;
+  display: flex;
+  
+}
+
+a{
+    color: #000000;
+    text-decoration: none;
+}
+
+footer {
+    font-family: 'helvetica';
+    background-color: black; 
+    color: #fff; 
+    padding: 20px; 
+    text-align: justify; 
+}
+
+footer ul {
+    list-style: none;
+    padding: 0; 
+}
+
+footer ul li {
+    margin-bottom: 10px; 
+}
+
+footer ul li a {
+    color: #fff; 
+    text-decoration: none; 
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
